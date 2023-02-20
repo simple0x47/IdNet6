@@ -3,11 +3,11 @@
 
 
 using IdentityModel;
-using IdentityServer4.Test;
+using IdNet6.Test;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Text.Json;
-using IdentityServer4;
+using IdNet6;
 
 namespace IdentityServerHost.Quickstart.UI
 {

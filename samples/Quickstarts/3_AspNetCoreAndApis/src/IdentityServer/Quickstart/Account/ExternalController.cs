@@ -1,9 +1,9 @@
 using IdentityModel;
-using IdentityServer4;
-using IdentityServer4.Events;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Test;
+using IdNet6;
+using IdNet6.Events;
+using IdNet6.Services;
+using IdNet6.Stores;
+using IdNet6.Test;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

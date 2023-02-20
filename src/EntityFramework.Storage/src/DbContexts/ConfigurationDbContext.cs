@@ -3,19 +3,19 @@
 
 
 using System;
-using IdentityServer4.EntityFramework.Entities;
-using IdentityServer4.EntityFramework.Extensions;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Options;
+using IdNet6.EntityFramework.Entities;
+using IdNet6.EntityFramework.Extensions;
+using IdNet6.EntityFramework.Interfaces;
+using IdNet6.EntityFramework.Options;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityServer4.EntityFramework.DbContexts
+namespace IdNet6.EntityFramework.DbContexts
 {
     /// <summary>
     /// DbContext for the IdentityServer configuration data.
     /// </summary>
     /// <seealso cref="Microsoft.EntityFrameworkCore.DbContext" />
-    /// <seealso cref="IdentityServer4.EntityFramework.Interfaces.IConfigurationDbContext" />
+    /// <seealso cref="IdNet6.EntityFramework.Interfaces.IConfigurationDbContext" />
     public class ConfigurationDbContext : ConfigurationDbContext<ConfigurationDbContext>
     {
         /// <summary>
@@ -34,7 +34,7 @@ namespace IdentityServer4.EntityFramework.DbContexts
     /// DbContext for the IdentityServer configuration data.
     /// </summary>
     /// <seealso cref="Microsoft.EntityFrameworkCore.DbContext" />
-    /// <seealso cref="IdentityServer4.EntityFramework.Interfaces.IConfigurationDbContext" />
+    /// <seealso cref="IdNet6.EntityFramework.Interfaces.IConfigurationDbContext" />
     public class ConfigurationDbContext<TContext> : DbContext, IConfigurationDbContext
         where TContext : DbContext, IConfigurationDbContext
     {

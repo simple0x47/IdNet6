@@ -6,16 +6,16 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
-using IdentityServer4.EntityFramework.DbContexts;
-using IdentityServer4.EntityFramework.Mappers;
-using IdentityServer4.EntityFramework.Options;
-using IdentityServer4.EntityFramework.Stores;
-using IdentityServer4.Models;
+using IdNet6.EntityFramework.DbContexts;
+using IdNet6.EntityFramework.Mappers;
+using IdNet6.EntityFramework.Options;
+using IdNet6.EntityFramework.Stores;
+using IdNet6.Models;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 using Xunit.Sdk;
 
-namespace IdentityServer4.EntityFramework.IntegrationTests.Stores
+namespace IdNet6.EntityFramework.IntegrationTests.Stores
 {
     public class ClientStoreTests : IntegrationTest<ClientStoreTests, ConfigurationDbContext, ConfigurationStoreOptions>
     {

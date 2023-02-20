@@ -3,7 +3,7 @@
 
 #pragma warning disable 1591
 
-namespace IdentityServer4
+namespace IdNet6
 {
     internal static class IdentityServerConstants
     {

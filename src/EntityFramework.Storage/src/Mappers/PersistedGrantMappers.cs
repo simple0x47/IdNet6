@@ -3,9 +3,9 @@
 
 
 using AutoMapper;
-using IdentityServer4.Models;
+using IdNet6.Models;
 
-namespace IdentityServer4.EntityFramework.Mappers
+namespace IdNet6.EntityFramework.Mappers
 {
     /// <summary>
     /// Extension methods to map to/from entity/model for persisted grants.

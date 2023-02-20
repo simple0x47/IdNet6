@@ -3,18 +3,18 @@ This project is not maintained anymore. This repo will be archived when .NET Cor
 
 See [here](https://duendesoftware.com/products/identityserver) for more details.
 
-## About IdentityServer4
+## About IdNet6
 [<img align="right" width="100px" src="https://dotnetfoundation.org/img/logo_big.svg" />](https://dotnetfoundation.org/projects?searchquery=IdentityServer&type=project)
 
 IdentityServer is a free, open source [OpenID Connect](http://openid.net/connect/) and [OAuth 2.0](https://tools.ietf.org/html/rfc6749) framework for ASP.NET Core.
-Founded and maintained by [Dominick Baier](https://twitter.com/leastprivilege) and [Brock Allen](https://twitter.com/brocklallen), IdentityServer4 incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
-IdentityServer4 is officially [certified](https://openid.net/certification/) by the [OpenID Foundation](https://openid.net) and thus spec-compliant and interoperable.
+Founded and maintained by [Dominick Baier](https://twitter.com/leastprivilege) and [Brock Allen](https://twitter.com/brocklallen), IdNet6 incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
+IdNet6 is officially [certified](https://openid.net/certification/) by the [OpenID Foundation](https://openid.net) and thus spec-compliant and interoperable.
 It is part of the [.NET Foundation](https://www.dotnetfoundation.org/), and operates under their [code of conduct](https://www.dotnetfoundation.org/code-of-conduct). It is licensed under [Apache 2](https://opensource.org/licenses/Apache-2.0) (an OSI approved license).
 
-For project documentation, please visit [readthedocs](https://identityserver4.readthedocs.io).
+For project documentation, please visit [readthedocs](https://IdNet6.readthedocs.io).
 
 ## Branch structure
-Active development happens on the main branch. This always contains the latest version. Each (pre-) release is tagged with the corresponding version. The [aspnetcore1](https://github.com/IdentityServer/IdentityServer4/tree/aspnetcore1) and [aspnetcore2](https://github.com/IdentityServer/IdentityServer4/tree/aspnetcore2) branches contain the latest versions of the older ASP.NET Core based versions.
+Active development happens on the main branch. This always contains the latest version. Each (pre-) release is tagged with the corresponding version. The [aspnetcore1](https://github.com/IdentityServer/IdNet6/tree/aspnetcore1) and [aspnetcore2](https://github.com/IdentityServer/IdNet6/tree/aspnetcore2) branches contain the latest versions of the older ASP.NET Core based versions.
 
 ## How to build
 
@@ -24,16 +24,16 @@ Active development happens on the main branch. This always contains the latest v
 * Run `build.ps1` or `build.sh` in the root of the cloned repo
 
 ## Documentation
-For project documentation, please visit [readthedocs](https://identityserver4.readthedocs.io).
+For project documentation, please visit [readthedocs](https://IdNet6.readthedocs.io).
 
 See [here](http://docs.identityserver.io/en/aspnetcore1/) for the 1.x docs, and [here](http://docs.identityserver.io/en/aspnetcore2/) for the 2.x docs.
 
 ## Bug reports and feature requests
-Please use the [issue tracker](https://github.com/IdentityServer/IdentityServer4/issues) for that. We only support the latest version for free. For older versions, you can get a commercial support agreement with us.
+Please use the [issue tracker](https://github.com/IdentityServer/IdNet6/issues) for that. We only support the latest version for free. For older versions, you can get a commercial support agreement with us.
 
 ## Commercial and Community Support
-If you need help with implementing IdentityServer4 or your security architecture in general, there are both free and commercial support options.
-See [here](https://identityserver4.readthedocs.io/en/latest/intro/support.html) for more details.
+If you need help with implementing IdNet6 or your security architecture in general, there are both free and commercial support options.
+See [here](https://IdNet6.readthedocs.io/en/latest/intro/support.html) for more details.
 
 ## Sponsorship
 If you are a fan of the project or a company that relies on IdentityServer, you might want to consider sponsoring.
@@ -49,10 +49,10 @@ This will help us devote more time to answering questions and doing feature deve
 [ExtraNetUserManager](https://www.extranetusermanager.com/)  
 [Knab](https://www.knab.nl/)
 
-You can see a list of our current sponsors [here](https://github.com/IdentityServer/IdentityServer4/blob/main/SPONSORS.md) - and for companies we have some nice advertisement options as well.
+You can see a list of our current sponsors [here](https://github.com/IdentityServer/IdNet6/blob/main/SPONSORS.md) - and for companies we have some nice advertisement options as well.
 
 ## Acknowledgements
-IdentityServer4 is built using the following great open source projects and free services:
+IdNet6 is built using the following great open source projects and free services:
 
 * [ASP.NET Core](https://github.com/dotnet/aspnetcore)
 * [Bullseye](https://github.com/adamralph/bullseye)
@@ -63,4 +63,4 @@ IdentityServer4 is built using the following great open source projects and free
 * [Fluent Assertions](http://www.fluentassertions.com/)
 * [GitReleaseManager](https://github.com/GitTools/GitReleaseManager)
 
-..and last but not least a big thanks to all our [contributors](https://github.com/IdentityServer/IdentityServer4/graphs/contributors)!
+..and last but not least a big thanks to all our [contributors](https://github.com/IdentityServer/IdNet6/graphs/contributors)!

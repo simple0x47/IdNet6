@@ -2,15 +2,15 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.EntityFramework.DbContexts;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Services;
-using IdentityServer4.EntityFramework.Stores;
-using IdentityServer4.Stores;
+using IdNet6.EntityFramework.DbContexts;
+using IdNet6.EntityFramework.Interfaces;
+using IdNet6.EntityFramework.Services;
+using IdNet6.EntityFramework.Stores;
+using IdNet6.Stores;
 using System;
-using IdentityServer4.EntityFramework.Options;
-using IdentityServer4.EntityFramework;
-using IdentityServer4.EntityFramework.Storage;
+using IdNet6.EntityFramework.Options;
+using IdNet6.EntityFramework;
+using IdNet6.EntityFramework.Storage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 

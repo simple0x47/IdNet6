@@ -3,11 +3,11 @@
 
 
 using FluentAssertions;
-using IdentityServer4.EntityFramework.Mappers;
-using IdentityServer4.Models;
+using IdNet6.EntityFramework.Mappers;
+using IdNet6.Models;
 using Xunit;
 
-namespace IdentityServer4.EntityFramework.UnitTests.Mappers
+namespace IdNet6.EntityFramework.UnitTests.Mappers
 {
     public class PersistedGrantMappersTests
     {

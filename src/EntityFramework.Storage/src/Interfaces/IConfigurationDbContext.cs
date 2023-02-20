@@ -3,10 +3,10 @@
 
 
 using System;
-using IdentityServer4.EntityFramework.Entities;
+using IdNet6.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityServer4.EntityFramework.Interfaces
+namespace IdNet6.EntityFramework.Interfaces
 {
     /// <summary>
     /// Abstraction for the configuration context.

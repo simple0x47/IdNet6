@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
-using IdentityServer4.EntityFramework.DbContexts;
-using IdentityServer4.EntityFramework.Entities;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Options;
-using IdentityServer4.EntityFramework.Stores;
-using IdentityServer4.Stores;
-using IdentityServer4.Test;
+using IdNet6.EntityFramework.DbContexts;
+using IdNet6.EntityFramework.Entities;
+using IdNet6.EntityFramework.Interfaces;
+using IdNet6.EntityFramework.Options;
+using IdNet6.EntityFramework.Stores;
+using IdNet6.Stores;
+using IdNet6.Test;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace IdentityServer4.EntityFramework.IntegrationTests.TokenCleanup
+namespace IdNet6.EntityFramework.IntegrationTests.TokenCleanup
 {
     public class TokenCleanupTests : IntegrationTest<TokenCleanupTests, PersistedGrantDbContext, OperationalStoreOptions>
     {

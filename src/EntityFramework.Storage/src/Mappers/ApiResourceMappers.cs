@@ -3,9 +3,9 @@
 
 
 using AutoMapper;
-using IdentityServer4.EntityFramework.Entities;
+using IdNet6.EntityFramework.Entities;
 
-namespace IdentityServer4.EntityFramework.Mappers
+namespace IdNet6.EntityFramework.Mappers
 {
     /// <summary>
     /// Extension methods to map to/from entity/model for API resources.

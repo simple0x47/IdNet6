@@ -3,7 +3,7 @@
 
 #pragma warning disable 1591
 
-namespace IdentityServer4.Stores.Serialization
+namespace IdNet6.Stores.Serialization
 {
     public class ClaimsPrincipalLite
     {

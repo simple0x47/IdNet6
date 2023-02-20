@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.Entities;
+using IdNet6.EntityFramework.Entities;
 
-namespace IdentityServer4.EntityFramework
+namespace IdNet6.EntityFramework
 {
     /// <summary>
     /// Interface to model notifications from the TokenCleanup feature.

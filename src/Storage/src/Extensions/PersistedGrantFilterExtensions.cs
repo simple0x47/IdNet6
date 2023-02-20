@@ -2,10 +2,10 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Stores;
+using IdNet6.Stores;
 using System;
 
-namespace IdentityServer4.Extensions
+namespace IdNet6.Extensions
 {
     /// <summary>
     /// Extensions for PersistedGrantFilter.
