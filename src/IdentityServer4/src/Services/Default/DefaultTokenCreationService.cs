@@ -72,8 +72,9 @@ namespace IdentityServer4.Services
         {
             var header = await CreateHeaderAsync(token);
             var payload = await CreatePayloadAsync(token);
+            var jwtToken = new JwtSecurityToken(header, payload);
 
-            return await CreateJwtAsync(new JwtSecurityToken(header, payload));
+            return await CreateJwtAsync(jwtToken);
         }
 
         /// <summary>

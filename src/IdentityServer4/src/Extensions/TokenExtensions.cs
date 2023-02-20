@@ -108,7 +108,7 @@ namespace IdentityServer4.Extensions
                     else
                     {
                         // add just one
-                        payload.Add(group.Key, group.First().JsonValue);
+                        payload.Add(group.Key, group.First().JsonValue.ToString());
                     }
                 }
 
